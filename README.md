@@ -12,5 +12,5 @@
 <p align="center">
     <img src="pendientes/pruebas_unitarias.png"
         alt="Pruebas Unitarias"    
-        width="300" />
+        width="600" />
 </p>
