@@ -10,7 +10,7 @@
 - Sobre las pruebas unitarias, se hacen en la seccion de test del cual Android Developer nos brinda su documentacion
 
 <p align="center">
-    <img src="assets/pruebas_unitarias.png"
+    <img src="pendientes/pruebas_unitarias.png"
         alt="Pruebas Unitarias"    
         width="300" />
 </p>
