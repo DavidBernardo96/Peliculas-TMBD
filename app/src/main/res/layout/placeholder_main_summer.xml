@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="133.3dp"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    android:orientation="vertical">
+
+    <View
+        android:id="@+id/image_holder"
+        android:layout_width="133.3dp"
+        android:layout_height="200dp"
+        android:background="@color/placeholder_color"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <View
+        android:layout_margin="3dp"
+        android:id="@+id/name_holder"
+        android:layout_width="match_parent"
+        android:layout_height="18sp"
+        android:background="@color/placeholder_color"
+        android:layout_marginStart="6dp"
+        android:layout_marginEnd="6dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:gravity="center_vertical"
+        android:layout_marginStart="3dp"
+        android:orientation="horizontal">
+        <View
+            android:layout_width="40dp"
+            android:layout_height="14sp"
+            android:layout_marginEnd="6dp"
+            android:layout_marginTop="3dp"
+            android:background="@color/placeholder_color"
+            app:layout_constraintLeft_toRightOf="@+id/image_holder"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/name_holder" />
+
+        <View
+            android:layout_width="15dp"
+            android:layout_height="14sp"
+            android:layout_marginEnd="6dp"
+            android:layout_marginTop="3dp"
+            android:background="@color/placeholder_color"
+            app:layout_constraintLeft_toRightOf="@+id/image_holder"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/name_holder" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
